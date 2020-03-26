@@ -7,3 +7,5 @@ prisma : ORM(objective-relation mapping)의 일종으로, 객체 간 연결 해�
 일단 회원가입 해야함  
 이후 add a service 하고, 터미널에 login 관련 코드 입력  
 prisma 홈페이지에서 그러면 authenticate 완료! -> create new service  
+이후 터미널에서 prisma init -> 이후 서버 제작  
+prisma 파일들에서 DB 이런것들 만들고 나서 터미널에 prisma deploy 하면 내 prisma계정에 업로드 됨  
