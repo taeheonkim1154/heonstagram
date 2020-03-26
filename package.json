@@ -1,0 +1,34 @@
+{
+  "name": "heonstagram",
+  "version": "1.0.0",
+  "description": "Instagram clone coding made by node, express, graphql, apollo, prisma, react with nomad coder",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taeheonkim1154/heonstagram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taeheonkim1154/heonstagram/issues"
+  },
+  "homepage": "https://github.com/taeheonkim1154/heonstagram#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-node": "0.0.1-security",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^4.0.7",
+    "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.2"
+  }
+}
