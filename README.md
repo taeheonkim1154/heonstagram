@@ -10,3 +10,8 @@ prisma 홈페이지에서 그러면 authenticate 완료! -> create new service
 이후 터미널에서 prisma init -> 이후 서버 제작 (여기에서는 dev 서버로 만들고, us서버 이용함)  
 prisma 파일들에서 DB 모델들 만들고 나서 터미널에 "prisma deploy" 하면 내 prisma계정에 업로드 됨  
 prisma 계정에서 데이터 관리 할 수 있음!
+
+
+## Prisma 이용 방법
+만들어진 datamodel.prisma 파일에 내가 원하는 데이터 모델 모양 설계  
+npm run prisma (package.json 참고)에 포함된 generate를 이용해서 앱과 prisma 간 연동시킨다!
