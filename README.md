@@ -14,4 +14,6 @@ prisma 계정에서 데이터 관리 할 수 있음!
 
 ## Prisma 이용 방법
 만들어진 datamodel.prisma 파일에 내가 원하는 데이터 모델 모양 설계  
+src폴더 아래에 models.praphql파일에 datamodel.prisma 파일의 내용을 복붙한다. (directive 변수 - @로 시작하는 변수는 삭제)
+src폴더 -> api폴더 아래에 원하는 graphql파일과 resolver파일을 쌍으로 만든다. 
 npm run prisma (package.json 참고)에 포함된 generate를 이용해서 앱과 prisma 간 연동시킨다!
