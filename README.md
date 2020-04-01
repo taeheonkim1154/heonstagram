@@ -25,4 +25,5 @@ localhost:4000에서는 내 앱의 api에서 쓰이는 함수가 모아짐
 ## 로그인 secret 인증 방법
 npm add passport, passport-jwt  
 confirmSecret 폴더 참고. passport-jwt 공식문서에 나온대로 코드 작성  
+utils.js의 genearteToken함수에 의해 id를 private key로 암호화해서 TOKEN 제작
 
