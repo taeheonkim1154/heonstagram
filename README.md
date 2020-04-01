@@ -20,3 +20,9 @@ npm run prisma (package.json 참고)에 포함된 generate를 이용해서 앱�
 
 https://us1.prisma.sh/tae-heon-kim-76674f/heonstagram/dev는 datamodel.prisma와 관련된 함수들을 볼 수 있는 곳!  
 localhost:4000에서는 내 앱의 api에서 쓰이는 함수가 모아짐  
+
+
+## 로그인 secret 인증 방법
+npm add passport, passport-jwt  
+confirmSecret 폴더 참고. passport-jwt 공식문서에 나온대로 코드 작성  
+
